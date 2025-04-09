@@ -26,7 +26,7 @@ class Deck:
             q, n = line.split(sep=" ", maxsplit=1)
             side[n] += int(q)
 
-        return cls(name, main, side)
+        return cls(name, dict(main), dict(side))
 
     # hashmap mainDeck;
     # hashmap sideDeck;
