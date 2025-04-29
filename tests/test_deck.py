@@ -1,5 +1,5 @@
 import pytest
-from src.main import Deck
+from src.deck import Deck
 
 # @pytest.mark.parametrize("input, expected", [("",""),("",True), ("", None), ("", False)])
 # def test_equality(input,expected):
