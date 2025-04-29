@@ -13,7 +13,6 @@ class Deck:
 
     @classmethod
     def from_list(cls, name: str, decklist: str):
-        breakpoint()
         mb, sb = decklist.split("\n\n")
         
         main = defaultdict(int)
@@ -58,3 +57,5 @@ class Deck:
 # print(deck_2.side)
 
 # print(Deck.min_size)
+
+
